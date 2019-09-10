@@ -5,6 +5,9 @@ import store from "./store";
 // 移动端适配
 import 'lib-flexible/flexible.js'
 
+import '@/filters' // filters
+import '@/permission' // permission
+
 
 Vue.config.productionTip = false;
 
