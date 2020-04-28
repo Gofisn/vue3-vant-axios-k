@@ -8,9 +8,8 @@ import 'lib-flexible/flexible.js'
 import '@/filters' // filters
 import '@/permission' // permission
 
-import Alert from '@/components/alert.js';
 import Confirm from '@/components/confirm.js'
-Vue.use(Alert).use(Confirm)
+Vue.use(Confirm)
 
 Vue.config.productionTip = false;
 
